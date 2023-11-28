@@ -1,0 +1,193 @@
+div#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+header {
+    width: 100%;
+    height: 18%;
+    /* border: 1px solid black; */
+}
+header img {
+    width: 60;
+    height: 60;
+    float :left;
+    /* float image to the left*/
+}
+header span#title{
+    font-weight: bold;
+    /* making text bold */
+    font-size: 1.5em;
+    /* making text bigger */
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+/* To DO */
+header span#slogan{
+    clear: both;
+    float:left;
+    padding-left: 85px;
+    top : -10px;
+    position:relative; 
+}
+header div#search{
+    float:right;
+    padding-top:7px;
+    padding-right:10px;
+    margin:right;
+    position:relative;
+}
+header div input#inputfeild{
+    width: 130px;
+    margin-right: 0px;
+    border: 2px solid black;
+    /* background-color: rgb(237, 253, 9); */
+    /* color:black */
+    border-radius: 5px;
+    /* To make search feid round */
+}
+header div input#inputfeild:hover{
+    border: 2px solid brown;
+}
+header div input#submit-btn{
+    border-radius:15px;
+    color:white;
+    background-color:grey;
+    cursor: pointer;
+}
+nav{
+    width:100%;
+    height:50px;
+    background-color:greenyellow;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    /* that remove the bullets */
+    padding-top: 15px;
+    text-align: center;
+
+}
+nav ul li{
+    display : inline-block;
+}
+nav ul li a{
+    display : inline-block;
+    /* that put the ul in horizontal from vertical and also give width  */
+    color:darkgreen;
+    padding-left:70px;
+   width:30px;
+   height:20px;
+   /* giving width and height so if we put cursor on that area it can show a pointer and clickable */
+   text-decoration: none;
+   /* to remove all text decoration */
+}
+nav ul li a:hover{
+    font-weight:bold;
+    text-decoration:underline;
+}
+aside{
+    width:20%;
+    height: 250px;
+    float:left;
+}
+aside ul{
+    
+    list-style-type: none;
+
+}
+aside ul li{
+    
+display:block;
+margin-top: 18px;
+padding-left: 15px;
+font-size: medium;
+width:180px;
+}
+aside ul li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(183, 243, 122);
+    color: black; 
+    height:20px;
+    text-align: center;
+    border-radius: 3px;
+}
+aside ul li#machine{
+    width:160px;
+}
+aside ul li a:hover{
+color:darkolivegreen;
+text-decoration: underline;
+}
+div#products{
+    /* border:1px solid blue; */
+    width:70%;
+    float:left;
+    height: 250px;
+    margin-top:  10px;
+    background-color: rgb(245, 241, 241);
+}
+div.card{
+    width: 150px;
+    height:200px;
+    border: 1px solid rgb(217, 231, 217);
+    text-align: center;
+    cursor: pointer;
+    float:left;
+    margin: 15px;
+    text-align: center;
+    background-color: white;
+}
+div.card:hover{
+    box-shadow: 0 0 10px rgb(171, 245, 61);
+   
+}
+div.card img{
+    width: 90px;
+    height:80px;
+}
+
+div.card h3{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding:20px;
+}
+div.card p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+div.card p.price{
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(93, 153, 2) ;
+    font-weight: bold;
+
+
+}
+div.card button{
+    width: 100%;
+    background-color:rgb(206, 203, 203);
+    border: 1px solid darkgreen;
+}
+div.card button:hover{
+    cursor:pointer;
+    background-color: greenyellow;
+}
+footer{
+    clear:both;
+    width:100%;
+    margin-top:10px;
+    /* border:1px solid black; */
+    float:left;
+    padding:20px;
+    background-color:rgb(222, 255, 173);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+footer p{
+    text-align: center;
+}
